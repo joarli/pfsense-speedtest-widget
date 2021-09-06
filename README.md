@@ -2,7 +2,7 @@
 
 ![speedtes-ip](https://user-images.githubusercontent.com/19557850/132254559-4a0d9aab-117a-465e-a77d-9d7464af2d52.JPG)
 
-## Install
+## Manual Installation
 
 To use this widget you will need to install the speedtest package:
 
@@ -22,4 +22,12 @@ Copy the widget file **speedtest.widget.php** to **/usr/local/www/widgets/widget
 Install the widget on your dashboard.
 
 Add information about IP Address source on widget.
+
+## Auto Installation
+
+- Run this command:
+
+fetch -q -o - https://raw.githubusercontent.com/joarli/pfsense-speedtest-widget/master/install.sh | sh
+
+Done.
 
