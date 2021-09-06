@@ -1,4 +1,4 @@
-# Speedtest dashboard widget for pfSense Fork from aln-1
+# Speedtest dashboard widget for pfSense
 
 ## Install
 
