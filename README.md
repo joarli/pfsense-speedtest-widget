@@ -1,5 +1,7 @@
 # Speedtest dashboard widget for pfSense
 
+![speedtes-ip](https://user-images.githubusercontent.com/19557850/132254559-4a0d9aab-117a-465e-a77d-9d7464af2d52.JPG)
+
 ## Install
 
 To use this widget you will need to install the speedtest package
