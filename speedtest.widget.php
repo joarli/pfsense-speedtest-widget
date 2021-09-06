@@ -47,15 +47,15 @@ if ($_REQUEST['ajax']) {
 		<td><h4 id="speedtest-upload">N/A</h4></td>
 	</tr>
 	<tr>
-		<td>ISP</td>
+		<td><h4>ISP</h4></td>
 		<td colspan="2" id="speedtest-isp">N/A</td>
 	</tr>
 	<tr>
-		<td>Host</td>
+		<td><h4>Host</h4></td>
 		<td colspan="2" id="speedtest-host">N/A</td>
 	</tr>
 	<tr>
-		<td>IP</td>
+		<td><h4>IP</h4></td>
 		<td colspan="2" id="speedtest-ip">N/A</td>
 	</tr>
 	<tr>
