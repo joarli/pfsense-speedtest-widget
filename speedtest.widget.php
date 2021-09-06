@@ -55,8 +55,12 @@ if ($_REQUEST['ajax']) {
 		<td colspan="2" id="speedtest-host">N/A</td>
 	</tr>
 	<tr>
-		<td colspan="3" id="speedtest-ts" style="font-size: 0.8em;">&nbsp;</td>
+		<td>IP</td>
+		<td colspan="2" id="speedtest-ip">N/A</td>
 	</tr>
+	<tr>
+	  <td colspan="3" id="speedtest-ts" style="font-size: 0.8em;">&nbsp;</td>
+  </tr>
 </table>
 <a id="updspeed" href="#" class="fa fa-refresh" style="display: none;"></a>
 <script type="text/javascript">
@@ -69,6 +73,7 @@ function update_result(results) {
     	$("#speedtest-upload").html((results.upload / 1000000).toFixed(2) + "<small> Mbps</small>");
     	$("#speedtest-upload").html((results.upload / 1000000).toFixed(2) + "<small> Mbps</small>");
     	$("#speedtest-isp").html(results.client.isp);
+	$("#speedtest-ip").html(results.client.ip);
     	$("#speedtest-host").html(results.server.name);
     } else {
     	$("#speedtest-ts").html("Speedtest failed");
@@ -77,6 +82,7 @@ function update_result(results) {
     	$("#speedtest-upload").html("N/A");
     	$("#speedtest-upload").html("N/A");
     	$("#speedtest-isp").html("N/A");
+	$("#speedtest-ip").html("N/A");
     	$("#speedtest-host").html("N/A");
     }
 }
