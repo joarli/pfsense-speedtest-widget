@@ -4,10 +4,17 @@
 
 ## Install
 
-To use this widget you will need to install the speedtest package
+To use this widget you will need to install the speedtest package:
+
+pfSense 2.4.x:
 
 ```
 pkg update ; pkg install -y py37-speedtest-cli
+```
+pfSense 2.5.x or 21.xx (PLUS):
+
+```
+pkg update ; pkg install -y py38-speedtest-cli
 ```
 
 Copy the widget file **speedtest.widget.php** to **/usr/local/www/widgets/widgets/** on your pfSense machine.
