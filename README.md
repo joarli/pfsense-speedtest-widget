@@ -4,7 +4,7 @@
 
 This version show IP address source of test.
 
-**UPDATE OUT/2022 - Add option --secure to work with speedtest-cli again.
+**UPDATE OUT/2022 - Add option "--secure" to work with speedtest-cli again.
 
 ## Manual Installation
 
