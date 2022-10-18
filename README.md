@@ -4,6 +4,8 @@
 
 This version show IP address source of test.
 
+**UPDATE OUT/2022 - Add option --secure to work with speedtest-cli again.
+
 ## Manual Installation
 
 To use this widget you will need to install the speedtest package:
