@@ -21,6 +21,16 @@ pfSense 2.5.x or 21.xx (PLUS):
 pkg update ; pkg install -y py38-speedtest-cli
 ```
 
+pfSense 2.6 or 21.xx (PLUS):
+
+```
+pkg update ; pkg install -y py39-speedtest-cli
+```
+pfSense 2.7 or 23.xx (PLUS):
+
+```
+pkg update ; pkg install -y py311-speedtest-cli
+```
 Copy the widget file **speedtest.widget.php** to **/usr/local/www/widgets/widgets/** on your pfSense machine.
 
 Enable the widget on your dashboard.
