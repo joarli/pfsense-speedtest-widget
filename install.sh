@@ -30,7 +30,7 @@ if [ "$(cat /etc/version | cut -c 1-3)" == "22." ]; then #pfSense PLUS Edition
         fetch -q -o /usr/local/www/widgets/widgets/speedtest.widget.php https://raw.githubusercontent.com/joarli/pfsense-speedtest-widget/master/speedtest.widget.php
 fi
 if [ "$(cat /etc/version | cut -c 1-3)" == "23." ]; then #pfSense PLUS Edition
-        pkg install -y py39-speedtest-cli-2.1.3
+        pkg install -y py311-speedtest-cli-2.1.3
         fetch -q -o /usr/local/www/widgets/widgets/speedtest.widget.php https://raw.githubusercontent.com/joarli/pfsense-speedtest-widget/master/speedtest.widget.php
 fi
 
