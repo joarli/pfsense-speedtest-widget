@@ -56,16 +56,16 @@ case "$VERSAO" in
         pkg install -y py39-speedtest-cli-2.1.3
         fetch -q -o "$WIDGET_DEST" "$WIDGET_URL"
         ;;
-    "23."|"24."|"25.")
+    "23."|"24."|"25."|"26.")
         echo "Instalando versão speedtest para pfSense Plus $VERSAO..."
-        pkg install -y py311-speedtest-cli-2.1.3
-        fetch -q -o "$WIDGET_DEST" "$WIDGET_URL"
-        ;;
-    "26.")
-        echo "Instalando versão speedtest para pfSense Plus 26..."
         pkg install -y py311-speedtest-cli-2.1.3_1
         fetch -q -o "$WIDGET_DEST" "$WIDGET_URL"
         ;;
+    #"26.")
+    #    echo "Instalando versão speedtest para pfSense Plus 26..."
+    #    pkg install -y py311-speedtest-cli-2.1.3_1
+    #    fetch -q -o "$WIDGET_DEST" "$WIDGET_URL"
+    #    ;;
     *)
         # 3. MENSAGEM MELHORADA PARA VERSÃO NÃO SUPORTADA / DESCONHECIDA
         echo "=========================================================="
