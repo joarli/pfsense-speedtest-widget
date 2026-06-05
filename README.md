@@ -40,9 +40,9 @@ Enable the widget on your dashboard.
 ## Auto Installation
 
 - Run this command:
-
+```
 fetch -q -o - https://raw.githubusercontent.com/joarli/pfsense-speedtest-widget/master/new_install.sh | sh
-
+```
 Enable the widget on your Dashboard.
 
 Done.
